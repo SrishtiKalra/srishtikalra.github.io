@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
+    <header id="hero">
+        <div class="hero-content">
             <h1>Srishti Kalra</h1>
             <p>Master's in Computer Science | Texas A&M University</p>
         </div>
     </header>
     <nav>
         <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -25,53 +25,31 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>
-                I am Srishti Kalra, currently pursuing a Master's degree in Computer Science at Texas A&M University, expected to graduate in May 2025. I have a strong foundation in software engineering, machine learning, and artificial intelligence, with professional experience at Ericsson. My passion lies in leveraging technology to solve real-world problems, and I am eager to contribute to innovative projects.
-            </p>
+            <p>I am Srishti Kalra, currently pursuing a Master's degree in Computer Science at Texas A&M University...</p>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Student Researcher at Mays Business School</h3>
+                    <p>Developed and implemented a Relational Graph Attention Network (RGAT)...</p>
+                </div>
+                <div class="card">
+                    <h3>Software Engineer at Ericsson</h3>
+                    <p>Worked on end-to-end development and enhancement of Customer and Partner Management software...</p>
+                </div>
+            </div>
         </section>
         <section id="projects">
             <h2>Projects</h2>
             <div class="card-container">
                 <div class="card">
                     <h3>Sentiment Analysis Using Transformers</h3>
-                    <p>
-                        Implemented a sentiment analysis system using BERT, experimenting with hyperparameters and custom layers to fine-tune the model. <a href="https://github.com/SrishtiKalra/SentimentAnalysis.git">GitHub Repository</a>
-                    </p>
+                    <p>Implemented a sentiment analysis system using BERT...</p>
                 </div>
                 <div class="card">
                     <h3>NaviGuide</h3>
-                    <p>
-                        Developed an indoor navigation system using Augmented Reality and SLAM technology. <a href="https://github.com/SrishtiKalra/Naviguide">GitHub Repository</a>
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>Health Recommendation System</h3>
-                    <p>
-                        Created a predictive model for health recommendations using ensemble machine learning techniques. <a href="https://github.com/SrishtiKalra/Health-Recommendation-System">GitHub Repository</a>
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>AggieNet</h3>
-                    <p>
-                        Built a social media application for students and faculty to collaborate. <a href="https://github.com/SrishtiKalra/AggieNet.git">GitHub Repository</a>
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <div class="card-container">
-                <div class="card">
-                    <h3>Student Researcher at Mays Business School, Texas A&M</h3>
-                    <p>
-                        Developed and implemented a Relational Graph Attention Network (RGAT) for link prediction tasks, enhancing model transparency using GNNExplainer. (Jun. 2024 - Present)
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>Software Engineer at Ericsson, Gurgaon, India</h3>
-                    <p>
-                        Worked on end-to-end development and enhancement of Customer and Partner Management software using Java. Improved database retrieval times by 15%. (Jul. 2021 – Jun. 2023)
-                    </p>
+                    <p>Developed an indoor navigation system using Augmented Reality...</p>
                 </div>
             </div>
         </section>
@@ -80,7 +58,7 @@
             <div class="skills-grid">
                 <div>Languages: C++, Java, Python, Shell Scripting, JavaScript, HTML, CSS</div>
                 <div>Databases: Apache Cassandra, Firebase, Redis, MongoDB, MySQL</div>
-                <div>Tools and Frameworks: TensorFlow, PyTorch, Keras, NumPy, Pandas, SciPy, Matplotlib, Android Studio, IBM Cloud Services, Linux, Unity, Git, Jenkins, JMeter, Docker, Kubernetes, REST API</div>
+                <div>Tools and Frameworks: TensorFlow, PyTorch, Keras, NumPy, Pandas...</div>
                 <div>Soft Skills: Teamwork, Communication, Problem-solving, Agile methodologies</div>
             </div>
         </section>
@@ -100,5 +78,6 @@
     <footer>
         <p>&copy; 2024 Srishti Kalra</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
